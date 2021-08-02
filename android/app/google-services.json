@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "830639942344",
+    "project_id": "social-media-dev-219c5",
+    "storage_bucket": "social-media-dev-219c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830639942344:android:d003ceee0a9bdf8762d3fd",
+        "android_client_info": {
+          "package_name": "com.marvel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830639942344-ono58thtufqdm2gumrepd2mv72963u56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9mj-TtDtweSCbD75PZg2sA6bEp5GV6_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830639942344-ono58thtufqdm2gumrepd2mv72963u56.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "830639942344-g2jv0cuue7529hpofv622dgrs4q3ahim.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.Marvel"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
