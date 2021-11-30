@@ -30,6 +30,13 @@ const styles = StyleSheet.create({
     color: '#2e64e5',
     fontFamily: 'Lao Sangam MN',
   },
+  video: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0,
+  },
 });
 
 export default styles;

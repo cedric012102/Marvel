@@ -1,6 +1,6 @@
 import React from 'react';
-import {View, Animated} from 'react-native';
-import {styles} from './styles/progressive-image-style';
+import {View, StyleSheet, Animated} from 'react-native';
+import styles from './styles/progressive-image-style';
 
 class ProgressiveImage extends React.Component {
   defaultImageAnimated = new Animated.Value(0);

@@ -59,9 +59,12 @@ const Messages = [
 const MessagesScreen = ({navigation}) => {
     return (
       <Container>
-        <FlatList 
+        <FlatList
           data={Messages}
           keyExtractor={item=>item.id}
+          alwaysBounceHorizontal={false}
+          showsHorizontalScrollIndicator={false}
+          bounces={false}
           renderItem={({item}) => (
             <Card onPress={() => navigation.navigate('Chat', {userName: item.userName})}>
               <UserInfo>
@@ -80,7 +83,9 @@ const MessagesScreen = ({navigation}) => {
           )}
         />
       </Container>
-    );
+      );
 };
 
 export default MessagesScreen;
+
+

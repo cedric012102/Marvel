@@ -40,28 +40,28 @@ const AuthStack = () => {
         component={LoginScreen}
         options={{header: () => null}}
       />
-      <Stack.Screen 
-      name="Signup" 
-      component={SignupScreen} 
-      options={({navigation}) => ({
-        title: '',
-        headerStyle: {
-          backgroundColor: '#f9fafd',
-          shadowColor: '#f9fafd',
-          elevation: 0,
-        },
-        headerLeft: () => (
-          <View style={{marginLeft: 10}}>
-            <FontAwesome.Button 
-              name="long-arrow-left"
-              size={25}
-              backgroundColor="#f9fafd"
-              color="#333"
-              onPress={() => navigation.navigate('Login')}
+      <Stack.Screen
+        name="Signup"
+        component={SignupScreen}
+        options={({navigation}) => ({
+          title: '',
+          headerStyle: {
+            backgroundColor: '#f9fafd',
+            shadowColor: '#f9fafd',
+            elevation: 0,
+          },
+          headerLeft: () => (
+            <View style={{marginLeft: 10}}>
+              <FontAwesome.Button
+                name="long-arrow-left"
+                size={25}
+                backgroundColor="#f9fafd"
+                color="#333"
+                onPress={() => navigation.navigate('Login')}
               />
-              </View>
-            ),
-          })}
+            </View>
+          ),
+        })}
       />
     </Stack.Navigator>
   );
@@ -71,4 +71,3 @@ const AuthStack = () => {
 };
 
 export default AuthStack;
-

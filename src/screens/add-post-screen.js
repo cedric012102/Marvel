@@ -94,7 +94,7 @@ const AddPostScreen = () => {
     let filename = uploadUri.substring(uploadUri.lastIndexOf('/') + 1);
 
     // Add timestamp to File Name
-    const extension = filename.split('.').pop(); 
+    const extension = filename.split('.').pop();
     const name = filename.split('.').slice(0, -1).join('.');
     filename = name + Date.now() + '.' + extension;
 
@@ -143,7 +143,7 @@ const AddPostScreen = () => {
         {image != null ? <AddImage source={{uri: image}} /> : null}
 
         <InputField
-          placeholder="What's on your mind?"
+          placeholder="What's Your Super Power?"
           multiline
           numberOfLines={4}
           value={post}
@@ -152,7 +152,7 @@ const AddPostScreen = () => {
         {uploading ? (
           <StatusWrapper>
             <Text>{transferred} % Completed!</Text>
-            <ActivityIndicator size="large" color="#0000ff" />
+            <ActivityIndicator size="large" color="#008080" />
           </StatusWrapper>
         ) : (
           <SubmitBtn onPress={submitPost}>
@@ -179,3 +179,4 @@ const AddPostScreen = () => {
 };
 
 export default AddPostScreen;
+
